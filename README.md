@@ -1,29 +1,7 @@
-# ds-project-template
+## Introduction
+To practice EDA, dataframe reshaping and plotting, I work myself through the following data kaggle data of house sales in King County.
 
-Template for creating ds simple projects
+To have an objective I do this work as a fictional person who works in a fictional company for a fictional stakeholder. The results you can find [here](2022-01-27_presentation.pdf).
 
-## Requirements
+All the details about what I did are within the [notebook](EDA_King_Count_House_Prices.ipynb).
 
-- pyenv
-- python==3.9.4
-
-## Setup
-
-For this purpose you use following commands:
-
-```bash
-python -m venv .venv
-source .venv/bin/activate
-pip install --upgrade pip
-pip install -r requirements.txt
-```
-
-### Unit testing (Optional)
-
-If you write python scripts for your data processing methods, you can also write unit tests. In order to run the tests execute in terminal:
-
-```bash
-pytest
-```
-
-This command will execute all the functions in your project that start with the word **test**.
